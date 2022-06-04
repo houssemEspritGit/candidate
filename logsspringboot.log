@@ -1,0 +1,32 @@
+2022-06-04 20:31:58.607  INFO 12616 --- [main] e.c.CandidateServiceApplication          : Starting CandidateServiceApplication using Java 11.0.14.1 on DESKTOP-B790IA8 with PID 12616 (C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service\target\classes started by Houssem Zerai in C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service)
+2022-06-04 20:31:58.611  INFO 12616 --- [main] e.c.CandidateServiceApplication          : No active profile set, falling back to default profiles: default
+2022-06-04 20:31:59.105  INFO 12616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-04 20:31:59.129  INFO 12616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2022-06-04 20:31:59.317  INFO 12616 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8083 (http)
+2022-06-04 20:31:59.362  INFO 12616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 732 ms
+2022-06-04 20:31:59.808  INFO 12616 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-04 20:31:59.834  INFO 12616 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-04 20:31:59.872  INFO 12616 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-04 20:31:59.954  INFO 12616 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8083 (http) with context path ''
+2022-06-04 20:32:00.056  INFO 12616 --- [main] e.c.CandidateServiceApplication          : Started CandidateServiceApplication in 1.673 seconds (JVM running for 2.117)
+2022-06-04 20:32:00.173  INFO 12616 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-06-04 20:32:00.174  INFO 12616 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-06-04 20:32:27.223  INFO 12616 --- [http-nio-8083-exec-1] e.c.s.CandidateServiceImpl               : We've just greeted the user!
+2022-06-04 20:32:27.223  WARN 12616 --- [http-nio-8083-exec-1] e.c.s.CandidateServiceImpl               : We've just greeted the user!
+2022-06-04 20:32:27.223 ERROR 12616 --- [http-nio-8083-exec-1] e.c.s.CandidateServiceImpl               : We've just greeted the user!
+2022-06-04 20:32:27.223 FATAL 12616 --- [http-nio-8083-exec-1] e.c.s.CandidateServiceImpl               : We've just greeted the user!
+2022-06-04 20:40:13.598  INFO 12616 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-04 20:40:16.525  INFO 4692 --- [main] e.c.CandidateServiceApplication          : Starting CandidateServiceApplication using Java 11.0.14.1 on DESKTOP-B790IA8 with PID 4692 (C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service\target\classes started by Houssem Zerai in C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service)
+2022-06-04 20:40:16.529  INFO 4692 --- [main] e.c.CandidateServiceApplication          : No active profile set, falling back to default profiles: default
+2022-06-04 20:40:17.003  INFO 4692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-04 20:40:17.024  INFO 4692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interfaces.
+2022-06-04 20:40:17.208  INFO 4692 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8083 (http)
+2022-06-04 20:40:17.252  INFO 4692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 704 ms
+2022-06-04 20:40:17.732  INFO 4692 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-04 20:40:17.759  INFO 4692 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-04 20:40:17.797  INFO 4692 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-04 20:40:17.879  INFO 4692 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8083 (http) with context path ''
+2022-06-04 20:40:17.981  INFO 4692 --- [main] e.c.CandidateServiceApplication          : Started CandidateServiceApplication in 1.686 seconds (JVM running for 2.159)
+2022-06-04 20:40:18.166  INFO 4692 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-06-04 20:40:18.167  INFO 4692 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-06-04 20:40:30.721  INFO 4692 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -5,12 +5,15 @@ import ecommerce.cartservice.model.Candidate;
 import ecommerce.cartservice.service.CandidateService;
 import io.swagger.annotations.Api;
 import lombok.AllArgsConstructor;
+import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+//import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
 
 @RestController
 @RequestMapping(value = "/candidates")
@@ -18,10 +21,13 @@ import java.util.Optional;
 @AllArgsConstructor
 public class CandidateController {
 
+    //Logger logger = LogManager.getLogger(CandidateController.class);
+
     CandidateService candidateService;
 
     @GetMapping
     public ResponseEntity<List<Candidate>> getAllCandidate() {
+
         List<Candidate> candidates = this.candidateService.getAllCandidates();
         if (candidates.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
