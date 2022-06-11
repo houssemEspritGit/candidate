@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.esprit</groupId>
 	<artifactId>candidate-service</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.3</version>
 	<name>candidate-service</name>
 	<description>candidate microservice</description>
 	<properties>
