@@ -30,3 +30,39 @@
 2022-06-04 20:40:18.166  INFO 4692 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
 2022-06-04 20:40:18.167  INFO 4692 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
 2022-06-04 20:40:30.721  INFO 4692 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-04 20:43:04.575  INFO 19780 --- [main] e.c.CandidateServiceApplication          : Starting CandidateServiceApplication using Java 11.0.14.1 on DESKTOP-B790IA8 with PID 19780 (C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service\target\classes started by Houssem Zerai in C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service)
+2022-06-04 20:43:04.580  INFO 19780 --- [main] e.c.CandidateServiceApplication          : No active profile set, falling back to default profiles: default
+2022-06-04 20:43:05.049  INFO 19780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-04 20:43:05.072  INFO 19780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 MongoDB repository interfaces.
+2022-06-04 20:43:05.249  INFO 19780 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8083 (http)
+2022-06-04 20:43:05.292  INFO 19780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 693 ms
+2022-06-04 20:43:05.775  INFO 19780 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-04 20:43:05.801  INFO 19780 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-04 20:43:05.837  INFO 19780 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-04 20:43:05.926  INFO 19780 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8083 (http) with context path ''
+2022-06-04 20:43:06.019  INFO 19780 --- [main] e.c.CandidateServiceApplication          : Started CandidateServiceApplication in 1.67 seconds (JVM running for 2.113)
+2022-06-04 20:43:06.137  INFO 19780 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-06-04 20:43:06.138  INFO 19780 --- [RMI TCP Connection(2)-192.168.1.9] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-06-04 20:43:15.707  INFO 19780 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-04 20:43:32.258  INFO 22668 --- [main] e.c.CandidateServiceApplication          : Starting CandidateServiceApplication using Java 11.0.14.1 on DESKTOP-B790IA8 with PID 22668 (C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service\target\classes started by Houssem Zerai in C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service)
+2022-06-04 20:43:32.262  INFO 22668 --- [main] e.c.CandidateServiceApplication          : No active profile set, falling back to default profiles: default
+2022-06-04 20:43:32.732  INFO 22668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-04 20:43:32.755  INFO 22668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 MongoDB repository interfaces.
+2022-06-04 20:43:32.932  INFO 22668 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8083 (http)
+2022-06-04 20:43:32.975  INFO 22668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 693 ms
+2022-06-04 20:43:33.457  INFO 22668 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-04 20:43:33.483  INFO 22668 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-04 20:43:33.528  INFO 22668 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-04 20:43:33.617  INFO 22668 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8083 (http) with context path ''
+2022-06-04 20:43:33.712  INFO 22668 --- [main] e.c.CandidateServiceApplication          : Started CandidateServiceApplication in 1.679 seconds (JVM running for 2.12)
+2022-06-04 20:43:33.801  INFO 22668 --- [RMI TCP Connection(1)-192.168.1.9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-06-04 20:43:33.802  INFO 22668 --- [RMI TCP Connection(1)-192.168.1.9] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-06-04 20:43:38.464  INFO 22668 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-08 10:28:18.047  INFO 7836 --- [main] e.c.CandidateServiceApplicationTests     : Starting CandidateServiceApplicationTests using Java 1.8.0_60 on DESKTOP-B790IA8 with PID 7836 (started by Houssem Zerai in C:\Users\Houssem Zerai\Desktop\spring project\candidate-microservice\candidate-service)
+2022-06-08 10:28:18.055  INFO 7836 --- [main] e.c.CandidateServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2022-06-08 10:28:18.695  INFO 7836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-08 10:28:18.732  INFO 7836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 MongoDB repository interfaces.
+2022-06-08 10:28:19.779  INFO 7836 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-08 10:28:19.891  INFO 7836 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-08 10:28:20.075  INFO 7836 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-08 10:28:20.429  INFO 7836 --- [main] e.c.CandidateServiceApplicationTests     : Started CandidateServiceApplicationTests in 2.602 seconds (JVM running for 3.579)
