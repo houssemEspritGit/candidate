@@ -1,0 +1,10 @@
+version: "2.2"
+
+services:
+  Candidate:
+    container_name: candidate-service
+    build: ./
+    ports:
+      - "8083:8083"
+    hostname: candidate
+    image: "candidate-service"
