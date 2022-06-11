@@ -28,7 +28,7 @@ class CandidateServiceApplicationTests {
 	CandidateRepository candidate;
 
 	CandidateServiceApplicationTests() {
-		try (MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017")) {
+		try (MongoClient mongoClient = MongoClients.create("mongodb+srv://root:root@cluster0.kyifc.mongodb.net/?retryWrites=true&w=majority")) {
 			MongoDatabase database = mongoClient.getDatabase("candidateDB");
 		}
 	}
