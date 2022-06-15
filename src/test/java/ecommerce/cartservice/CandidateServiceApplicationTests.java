@@ -27,6 +27,7 @@ import java.util.List;
 class CandidateServiceApplicationTests {
 	CandidateRepository candidate;
 
+
 	CandidateServiceApplicationTests() {
 		try (MongoClient mongoClient = MongoClients.create("mongodb+srv://root:root@cluster0.kyifc.mongodb.net/?retryWrites=true&w=majority")) {
 			MongoDatabase database = mongoClient.getDatabase("candidateDB");
