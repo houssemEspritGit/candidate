@@ -24,6 +24,7 @@ import java.util.List;
 
 @SpringBootTest
 
+/* froce push */
 class CandidateServiceApplicationTests {
 	CandidateRepository candidate;
 
